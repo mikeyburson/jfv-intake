@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JFV Construction — Project Intake · Spider Pig Labs</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--void:#0b0d11;--coal:#12151b;--line:rgba(255,255,255,.1);--paper:#f6f3ed;--fog:rgba(246,243,237,.62);--ember:#d98e3c;--ember-h:#e7a45a}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Inter',-apple-system,sans-serif;background:var(--void);color:var(--paper);line-height:1.6;padding:42px 20px 90px}
+  .box{max-width:760px;margin:0 auto}
+  .brand{font-family:'Fraunces',serif;font-size:18px;margin-bottom:26px;color:var(--fog)}
+  .brand b{color:var(--ember)}
+  h1{font-family:'Fraunces',serif;font-size:clamp(28px,5vw,40px);line-height:1.12;color:var(--paper)}
+  h1 b{color:var(--ember)}
+  .intro{color:var(--fog);margin:16px 0 6px;font-size:16px}
+  .intro.tight{margin-top:10px}
+  fieldset{border:1px solid var(--line);border-radius:12px;background:var(--coal);padding:26px 28px;margin-top:24px}
+  legend{font-family:'Fraunces',serif;font-size:18px;padding:0 12px;color:var(--ember-h)}
+  .legendnote{font-size:13px;color:var(--fog);margin:2px 0 6px;font-style:italic}
+  label{display:block;font-size:15px;font-weight:600;color:var(--paper);margin:20px 0 8px;line-height:1.45}
+  label:first-of-type{margin-top:4px}
+  label .q{color:var(--ember);font-family:'Fraunces',serif;margin-right:7px}
+  .hint{display:block;font-weight:400;font-size:13.5px;color:var(--fog);margin-top:3px}
+  input[type=text],textarea{width:100%;background:#0e1116;border:1px solid var(--line);border-radius:8px;color:var(--paper);font:inherit;font-size:15px;padding:12px 14px}
+  textarea{min-height:74px;resize:vertical}
+  input:focus,textarea:focus{outline:none;border-color:var(--ember)}
+  .domains{margin-top:8px;background:#0e1116;border:1px solid var(--line);border-radius:8px;padding:12px 16px}
+  .domains div{font-size:14px;color:var(--fog);padding:3px 0}
+  .domains b{color:var(--ember-h);font-weight:600}
+  .actions{margin-top:32px;display:flex;gap:14px;flex-wrap:wrap}
+  button{font:inherit;font-weight:600;font-size:15px;padding:15px 30px;border-radius:7px;border:none;cursor:pointer}
+  .go{background:var(--ember);color:#1a1106}.go:hover{background:var(--ember-h)}
+  .alt{background:transparent;border:1px solid var(--line);color:var(--paper)}.alt:hover{border-color:var(--ember)}
+  .fine{font-size:12.5px;color:var(--fog);margin-top:16px}
+  ._gotcha{position:absolute;left:-9999px}
+  @media print{body{background:#fff;color:#111}fieldset{background:#fff;border-color:#ccc}.brand,.intro,.hint,legend,.legendnote,.domains div{color:#333}input,textarea,.domains{background:#fff;color:#111;border-color:#bbb}.actions{display:none}}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="brand">Spider Pig <b>Labs</b> · Hamilton, MT</div>
+  <h1>Let's build <b>JFV Construction</b> something worth showing off.</h1>
+  <p class="intro">These help me put together website examples that actually fit JFV, instead of some generic contractor site. Answer what you can, and don't sweat the ones you're not sure on.</p>
+  <p class="intro tight">I also sent over a rundown of where JFV's online presence sits right now — give it a read when you get a minute.</p>
+
+  <form action="https://formsubmit.co/mikeyburson@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="JFV Construction — new intake from Jim">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://mikeyburson.github.io/jfv-intake/thanks.html">
+    <input type="text" name="_honey" class="_gotcha" tabindex="-1" autocomplete="off">
+
+    <fieldset>
+      <legend>The work you want more of</legend>
+
+      <label><span class="q">1.</span>Describe the one project you'd clone to fill your whole calendar — what was it, who was the client, and why that one?
+        <textarea name="The dream project"></textarea></label>
+
+      <label><span class="q">2.</span>What kind of work do you turn down, or wish you got less of?
+        <textarea name="Work you'd rather not do"></textarea></label>
+
+      <label><span class="q">3.</span>What are you proudest of in how you build — the thing you do that most builders don't, or don't do as well?
+        <textarea name="What you're proudest of"></textarea></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Who's choosing you, and why</legend>
+
+      <label><span class="q">4.</span>When a buyer's deciding between you and another builder, what actually makes them pick you — and do they know that before they call?
+        <textarea name="Why they pick you"></textarea></label>
+
+      <label><span class="q">5.</span>Picture your ideal client — the person you'd want five more of. Who are they?
+        <span class="hint">Local or out-of-state? First custom build, or building their last home? Whatever comes to mind.</span>
+        <textarea name="Ideal client"></textarea></label>
+
+      <label><span class="q">6.</span>What do people get wrong about custom building before they talk to you — the thing you explain over and over?
+        <textarea name="What people get wrong"></textarea></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>How work finds you now</legend>
+
+      <label><span class="q">7.</span>Where do your jobs come from today?
+        <span class="hint">Referrals, repeat clients, drive-bys, the Facebook page…?</span>
+        <textarea name="Where jobs come from"></textarea></label>
+
+      <label><span class="q">8.</span>When someone's referred to you, what do they do before they call — ask around, look you up, check Facebook?
+        <textarea name="What referrals do before calling"></textarea></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>What this site needs to do</legend>
+      <div class="legendnote">The difference between a nice-looking page and one that earns its keep.</div>
+
+      <label><span class="q">9.</span>Two builders, exact same skill. One has a clean, professional site that does the job. The other? When someone Googles "custom home builder in the Bitterroot" — or asks ChatGPT — he's the one who comes up, and his site is so good they've decided on him before they've called anyone else. He charges a premium for it, too. <b>Which do you want to be, and how far do you want to push this?</b>
+        <textarea name="Ambition level" style="min-height:90px"></textarea></label>
+
+      <label><span class="q">10.</span>A year after this is live, what makes you say it was worth it?
+        <span class="hint">More of the right calls? Bigger jobs? Finally looking as good online as the homes look in person?</span>
+        <textarea name="What makes it worth it"></textarea></label>
+
+      <label><span class="q">11.</span>Where do you see JFV headed down the road? Growing it, keeping it steady, selling it or handing it off someday, or eventually stepping back — it helps me build something that fits where you're going, not just where you are today.
+        <textarea name="Where JFV is headed"></textarea></label>
+
+      <label><span class="q">12.</span>Any sites — builders or otherwise, in or out of construction — where you saw something and thought "I want that feel"?
+        <textarea name="Sites you like"></textarea></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>The practical stuff</legend>
+      <div class="legendnote">Quick ones — skip anything you're unsure on, we can deal with it later.</div>
+
+      <label><span class="q">13.</span>Got a domain name in mind?
+        <span class="hint">The plain jfvconstruction.com is already taken — some company out east — but plenty of good ones are open. A few that'd fit:</span>
+        <div class="domains">
+          <div><b>jfvconstructionmt.com</b> — your name + Montana</div>
+          <div><b>jimvitaleconstruction.com</b> — the full name folks type when they search you</div>
+          <div><b>jfvcustomhomes.com</b> — says exactly what you do</div>
+          <div><b>jfvbuilders.com</b> — short and sharp</div>
+          <div><b>bitterrootcustomhomes.com</b> — names the place; strong for getting found locally</div>
+        </div>
+        <input type="text" name="Domain preference" placeholder="Pick one, or put your own idea here and I'll check if it's available">
+      </label>
+
+      <label><span class="q">14.</span>How's your photo library?
+        <span class="hint">I already pulled some great shots off your Facebook to mock a few things up — but if you've got a stash of high-res project photos or drone footage, that's gold.</span>
+        <textarea name="Photo library"></textarea></label>
+
+      <label><span class="q">15.</span>Got past clients who'd leave a good review or say something nice on the record?
+        <span class="hint">No need to chase anyone down now — a rough number's fine, and we'll make collecting them dead-simple later.</span>
+        <input type="text" name="Reviews available"></label>
+
+      <label><span class="q">16.</span>Anything you're hoping to avoid, or any worry about doing this?
+        <span class="hint">Totally fair — tell me now.</span>
+        <textarea name="Worries or things to avoid"></textarea></label>
+
+      <label><span class="q">17.</span>Anything in that rundown I sent jump out at you?
+        <input type="text" name="Reaction to the rundown"></label>
+    </fieldset>
+
+    <div class="actions">
+      <button type="submit" class="go">Send to Mike →</button>
+      <button type="button" class="alt" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+    <p class="fine">Hit send and your answers come straight to me — nothing's stored anywhere else. Rather do it on paper? Print it and we'll go over it.</p>
+  </form>
+</div>
+</body>
+</html>
